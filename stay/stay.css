@@ -1,0 +1,225 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(152, 152, 236);
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+}
+.itpayti{
+    animation: animee 2s infinite linear alternate;
+}
+@keyframes animee {
+    100%{
+        transform: translateX(100px);
+    }
+}
+.itpayti img{
+    width: 100px;
+}
+.malumotlar{
+    display: flex;
+}
+.serviz{
+    margin: 5px;
+    padding: 12px;
+    border-radius: 15px;
+    background-color: #ff2;
+    color: dimgray;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+.serviz:hover{
+    background-color: dimgray;
+    color: #ff2;
+}
+/*  */
+.kurslar{
+    margin: 20px auto;
+    width: 700px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+span{
+    color: darkblue;
+}
+.grid{
+    width: 1000px;
+    grid-row-gap: 3rem;
+    margin: 50px auto;
+    display: grid;
+    grid-template-areas: 
+    "boxicon1 boxicon2 boxicon3"
+    "boxicon4 boxicon5 boxicon6"
+    ;
+}
+.boxicon1{
+    border-radius: 15px;
+    padding: 1rem 0;
+    grid-area: boxicon1;
+    width: 300px;
+    background-color: aliceblue;
+    transition: 1s;
+}
+.boxicon1:hover{
+    transition: 1s;
+    color: aliceblue;
+    background-color: black;
+}
+.boxicon2{
+    border-radius: 15px;
+    padding: 1rem 0;
+    grid-area: boxicon2;
+    width: 300px;
+    background-color: aliceblue;
+    transition: 1s;
+}
+.boxicon2:hover{
+    transition: 1s;
+    color: aliceblue;
+    background-color: black;
+}
+.boxicon3{
+    border-radius: 15px;
+    padding: 1rem 0;
+    grid-area: boxicon3;
+    width: 300px;
+    background-color: aliceblue;
+    transition: 1s;
+}
+.boxicon3:hover{
+    transition: 1s;
+    color: aliceblue;
+    background-color: black;
+}
+.boxicon4{
+    border-radius: 15px;
+    padding: 1rem 0;
+    grid-area: boxicon4;
+    width: 300px;
+    background-color: aliceblue;
+    transition: 1s;
+}
+.boxicon4:hover{
+    transition: 1s;
+    color: aliceblue;
+    background-color: black;
+}
+.boxicon5{
+    border-radius: 15px;
+    padding: 1rem 0;
+    grid-area: boxicon5;
+    width: 300px;
+    background-color: aliceblue;
+    transition: 1s;
+}
+.boxicon5:hover{
+    transition: 1s;
+    color: aliceblue;
+    background-color: black;
+}
+.boxicon6{
+    border-radius: 15px;
+    padding: 1rem 0;
+    grid-area: boxicon6;
+    width: 300px;
+    background-color: aliceblue;
+    transition: 1s;
+}
+.boxicon6:hover{
+    transition: 1s;
+    color: aliceblue;
+    background-color: black;
+}
+.onlion{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    line-height: 50px;
+}
+/*  */
+.uqishgakiriw{
+    width: 950px;
+    margin: 70px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.derektir{
+    display: flex;
+    flex-direction: column;
+}
+.bixod{
+    width: 300px;
+    padding: 20px;
+    margin-top: 22px;
+    font-size: 20px;
+    background-color: rgb(98, 197, 243);
+    color: black;
+}
+.inshener img{
+    margin-top: 22px;
+    width: 450px;
+    height: 420px;
+}
+/*  */
+.hello{
+    margin: 60px 0;
+}
+.ballar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ballar p{
+    width: 450px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.sessiya{
+    width: 450px;
+    height: 340px;
+}
+.ballar1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.voqiya{
+    width: 450px;
+    height: 340px;
+    margin: 2rem 0;
+    background-color: blanchedalmond;
+}
+.book{
+    text-align: center;
+    font-size: 90px;
+    color: darkblue;
+    font-weight: 900;
+    margin-top: 3rem;
+}
+.book1{
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: red;
+    font-weight: 900;
+    line-height: 30px;
+    margin-top: 10px;
+}
